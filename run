@@ -1,0 +1,1 @@
+gcc -c insta.c -o insta.o && g++ --std=c++14 -finstrument-functions test.cpp insta.o && ./a.out
